@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
-      <ul className='flex flex-row gap-4'>
+    <div className='bg-indigo-100 h-9 w-full'>
+      <ul className='flex flex-row gap-4 w-full h-full justify-around items-center'>
         <li>
           <NavLink 
             to='/'

@@ -6,7 +6,7 @@ export default function User() {
   const params = useParams()
 
   return (
-    <div>
+    <div className='flex flex-col gap-2 w-full h-full items-center justify-center'>
       User { params.id }
     </div>
   )
